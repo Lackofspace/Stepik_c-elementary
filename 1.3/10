@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+    int class1, class2, class3 = 0;
+    std::cin >> class1 >> class2 >> class3;
+    std::cout << class1 / 2 + class2 / 2 + class3 / 2 +
+        class1 % 2 + class2 % 2 + class3 % 2;
+    return 0;
+}
