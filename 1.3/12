@@ -1,0 +1,14 @@
+#include <iostream>
+
+
+int main() {
+    int n = 0;
+    std::cin >> n;
+    n = n % 86400;
+    std::cout << n / 3600
+        << ':'
+        << (n % 3600 / 60) / 10 << (n % 3600 / 60) % 10
+        << ':'
+        << (n % 60) / 10 << (n % 60) % 10;
+    return 0;
+}
