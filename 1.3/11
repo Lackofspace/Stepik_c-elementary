@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    int a, b, n = 0;
+    std::cin >> a >> b >> n;
+    std::cout << a * n + b * n / 100 << ' ' << b * n % 100;
+    return 0;
+}
